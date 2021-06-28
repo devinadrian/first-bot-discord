@@ -11,7 +11,7 @@ client.on('ready', () => {
 client.on('message', message => {
   const args = message.content.split(" ").slice(1);
   
-  if(message.content === "${prefix}help") {
+  if(message.content.startsWith(prefix + "help")) {
     let embedhelp = new Discord.MessageEmbed()
     .setColor("RANDOM")
     .setTitle(`${botname} help`)
@@ -21,7 +21,7 @@ client.on('message', message => {
     
     message.channel.send(embedhelp)
     }
-  if(message.content === "${prefix}ping") {
+  if(message.content.startsWith(prefix + "ping")) {
         message.channel.send(
       `🏓Latency is ${Date.now() -
         message.createdTimestamp}ms. API Latency is ${Math.round(
