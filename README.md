@@ -1,13 +1,13 @@
 Caranya download gimana?
 
 ```
-$git clone https://github.com/devinadrian/first-discord-bot
+git clone https://github.com/devinadrian/first-discord-bot
 ```
 ```
-$cd first-discord-bot
+cd first-discord-bot
 ```
 ```
-$npm install
+npm install
 ```
 
 
@@ -18,7 +18,7 @@ dan "prefix": "prefix-here" ke "prefix": "terserah prefix mau apa mau ! atau - a
 
 kalo udah tinggal buka terminal mu lagi ketik
 ```
-$node index
+node index
 ```
 
 beberapa hari akan di update
