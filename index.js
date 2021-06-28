@@ -29,5 +29,6 @@ client.on('message', message => {
       )}ms`
     );
   }
-  
+})
+
   client.login(token)
