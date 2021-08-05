@@ -20,5 +20,3 @@ kalo udah tinggal buka terminal mu lagi ketik
 ```
 node index
 ```
-
-beberapa hari akan di update
